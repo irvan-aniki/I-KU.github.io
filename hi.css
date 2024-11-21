@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 1200px;
+    background-color: whitesmoke;
+}
+.header{
+    z-index: 999;
+    width: 100%;
+    height: 150px;
+    background-color: slategray;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    height: 150px;
+    width: 10%;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.logu{
+    height: 130px;
+    width: 100%;
+}
+.judul{
+    padding-top: 50px;
+    padding-left: 5px;
+}
+.content{
+    width: 95%;
+    height: 430px;
+    margin-left: 45px;
+    display: flex;
+    background-image: url(gambar%20simetris.jpg);
+}
+.video{
+    width: 40%;
+    height: 430px;
+  /*  background-color: aqua;*/
+}
+.isi-video{
+    width: 75%;
+    height: 370;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+}
+.jam{
+    width: 75%;
+    height: 370px;
+    border-radius: 10px;
+}
+.beli{
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    background-color:beige;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 280px;
+}
+.beli:hover{
+    background-color: darkgray;
+}
+.info{
+    margin-left: 60px;
+    background-color: lightyellow;
+    width: 203px;
+    border-radius: 5px;
+}
+.buy{
+    padding-left: 20px;
+    padding-top:7px;
+}
+.ayam:hover{
+    color: cyan;
+}
+.footer{
+    width: 100%;
+    height: 190px;
+}
+.wa{
+    width: 15%;
+    height: 30px;
+ /*   background-color: brown;*/
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.logo-wa{
+    width: 35%;
+    height: 50px;
+    margin-top: 10px;
+}
